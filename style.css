@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form {
+    top: 5rem;
+    position: relative;
+    background: #ffafbd; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #ffc3a0,
+      #ffafbd
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #ffc3a0,
+      #ffafbd
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    
+  }
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .field input {
+    width: 100%;
+    padding: 0.5rem;
+    outline: 0;
+    border: none;
+    padding-left: 2rem;
+    padding-top: 0.7rem;
+    border-radius: 10px;
+  }
+  .error {
+    color:rgb(220, 14, 14);
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+  .fa-lock {
+    position: relative;
+    top: 1.7rem;
+    left: 0.6rem;
+    font-size: 1rem;
+  }
+  .fa-envelope {
+    position: relative;
+    top: 1.7rem;
+    left: 0.6rem;
+    font-size: 1rem;
+  }
+
+  .btn {
+    color: aliceblue;
+    background-color:#7b257e ;
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-left: 5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+  }
+  
+  .btn:hover{
+    background-color: #921b96;
+  }
